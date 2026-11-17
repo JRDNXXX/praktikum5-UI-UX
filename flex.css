@@ -1,0 +1,29 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+
+  .box {
+    background-color: #d9d9d9;
+    border: 2px solid #333;
+    height: 60px;
+    flex: 1; /* Membagi lebar secara merata dalam satu baris */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
